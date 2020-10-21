@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1180px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+    width: 240px;
+    height: 40px;
+    background: #424242;
+    float: left;
+}
+
+header h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    width: 940px;
+    height: 40px;
+    background: #424242;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    list-style: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 40px;
+
+}
+
+nav ul .target_f {
+    background: #e0e0e0;
+}
+
+nav ul .target_f a {
+    color: #424242;
+}
+
+nav ul .target_c a {
+    color: #e0e0e0;
+}
+
+main .slider {
+    width: 100%;
+    height: 200px;
+    background: #EEEEEE;
+}
+
+main .slider .content {
+    width: 70%;
+    margin: auto;
+}
+
+main .slider .arrow_left {
+    position: relative;
+    left: 10px;
+    top: 70px;
+    float: left;
+}
+
+main .slider .arrow_right {
+    position: relative;
+    right: 10px;
+    top: -40px;
+    float: right;
+}
+
+main .slider .arrow_left::before {
+    content: "<";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .slider .arrow_right::before {
+    content: ">";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main .slider .content h2 {
+    padding-top: 80px;
+}
+
+main .txt {
+    width: 100%;
+    height: 100px;
+}
+
+main .txt p {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100px;
+}
+
+main .txt p span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+main .picture {
+    width: 100%;
+    display: inline-flex;
+}
+
+main .picture .bloc_photo {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    border: 1px solid #C2C2C2;
+    padding: 5px;
+}
+
+main .picture .bloc_photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+main .picture .bloc_photo .reward {
+    position: relative;
+    top: -350px;
+    text-align: center;
+    background: #424242;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+main .picture .bloc_photo .reward p {
+    color: #FFF;
+}
+
+main .picture .bloc_photo .dead {
+    opacity: 0.5;
+    position: relative;
+    top: -360px;
+}
+
+main .picture .bloc_photo .dead p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+main .contact {
+    width: 95%;
+    margin: auto;
+    margin-top: 150px;
+    border-top: 1px solid black;
+}
+
+main .contact form {
+    width: 80%;
+    margin: 50px 10%;
+}
+
+main .contact form input, main .contact form select {
+    width: 94%;
+    margin: 5px 3%;
+    padding: 5px 0;
+}
+
+main .contact form textarea {
+    width: 94%;
+    margin: 5px 3%;
+    height: 70px;
+}
+
+main .contact form .submit {
+    width: 100px;
+    float: right;
+    background: #a8a7af;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 110px;
+    background: #424242;
+    display: inline-flex;
+}
+
+footer .list_A, footer .list_B {
+    color: #FFF;
+    width: 20%;
+    justify-content: center;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+footer .list_A li, footer .list_B li {
+    list-style: none;
+    margin-left: 25%;
+}
+
+footer .list_C {
+    color: #FFF;
+    width: 60%;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+footer .list_C li {
+    list-style: none;
+    margin-left: 60%;
+}

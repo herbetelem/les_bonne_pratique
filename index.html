@@ -18,26 +18,26 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#id">Fellows</a></li>
-            <li><a href="#id">Contact us</a></li>
+            <li class="target_f"><a href="#F">Fellows</a></li>
+            <li class="target_c"><a href="#C">Contact us</a></li>
         </ul>
     </nav>
     <main>
         <article class="slider">
-            <div class="arrow_left">
-                << /div>
-                    <div class="content">
-                        <h2>Dangerous fellowship try to destroy the ring</h2>
-                        <p>Orcs, Goblins, Balrogs, protect your master Sauron</p>
-                        <p class="size">140*140</p>
-                    </div>
-        </article>
-        <article class="txt">
+            <div class="arrow_left"></div>
+            <div class="content">
+                <h2>Dangerous fellowship try to destroy the ring</h2>
+                <p>Orcs, Goblins, Balrogs, protect your master Sauron</p>
+                <p class="size">140*140</p>
+            </div>
+            <div class="arrow_right"></div>
+        </article>  
+        <article class="txt" id="F">
             <p>Fellows wanted dead <span>(or alive if you want to eat them later)</span></p>
         </article>
         <article class="picture">
             <section class="bloc_photo">
-                <img src="" alt="photo" title="photo quelquonque">
+                <img src="img.png" alt="photo" title="photo quelquonque">
                 <div class="reward">
                     <p>Reward 1000 gold coins</p>
                 </div>
@@ -47,7 +47,7 @@
                 </div>
             </section>
             <section class="bloc_photo">
-                <img src="" alt="photo" title="photo quelquonque">
+                <img src="img.png" alt="photo" title="photo quelquonque">
                 <div class="dead">
                     <p>DEAD</p>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
             </section>
             <section class="bloc_photo">
-                <img src="" alt="photo" title="photo quelquonque">
+                <img src="img.png" alt="photo" title="photo quelquonque">
                 <div class="reward">
                     <p>Reward 250 gold coins</p>
                 </div>
@@ -67,8 +67,47 @@
                 </div>
             </section>
         </article>
-        
+
+
+        <article class="contact" id="C">
+            <h2>Contact us</h2>
+            <form action="#" method="GET">
+                <input type="email" placeholder="@" name="mail">
+                <input type="text" placeholder="🏠" name="adresse">
+                <select name="select" id="select">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="2">Option 3</option>
+                </select>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Your message"></textarea>
+                <input type="submit" value="Send !" class="submit">
+            </form>
+        </article>
+
     </main>
+
+    <footer>
+        <article class="list_A"> 
+            <ul>
+                <li>About us</li>
+                <li>Fellows</li>
+                <li>Join our army</li>
+            </ul>
+        </article>
+        <article class="list_B"> 
+            <ul>
+                <li>FAQ</li>
+                <li>Reward conditions</li>
+                <li>Legal mentions</li>
+            </ul>
+        </article>
+        <article class="list_C"> 
+            <ul>
+                <li>Sauron4Ever.com</li>
+                <li>Follow him also on twitter</li>
+            </ul>
+        </article>
+    </footer>
 
 </body>
 
