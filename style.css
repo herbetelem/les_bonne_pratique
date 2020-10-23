@@ -10,7 +10,7 @@ body {
 
 header {
     position: relative;
-    width: 240px;
+    width: 22%;
     height: 40px;
     background: #424242;
     float: left;
@@ -19,14 +19,14 @@ header {
 header h1 {
     color: white;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 1.5em;
     padding: 5px 10px;
 }
 
 nav {
     float: right;
     position: relative;
-    width: 940px;
+    width: 78%;
     height: 40px;
     background: #424242;
 }
@@ -61,6 +61,7 @@ nav ul .target_c a {
 }
 
 main .slider {
+    display: block;
     width: 100%;
     height: 200px;
     background: #EEEEEE;
@@ -224,4 +225,11 @@ footer .list_C {
 footer .list_C li {
     list-style: none;
     margin-left: 60%;
+}
+
+
+@media screen and (max-width: 960px) {
+    main .slider, footer, main .picture {
+        display: none;
+    }
 }
